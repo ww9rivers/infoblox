@@ -1,0 +1,6 @@
+{
+	"apiVersion":	"2.10.5",
+	"ip":		"10.20.30.40",
+	"user":		"ipamadmin",
+	"password":	"changeme"
+}

@@ -9,10 +9,13 @@
   "author": "Sam Womack",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.0.6",
+    "axios": "^0.21.1",
     "request": "^2.67.0"
   },
   "publishConfig": {
     "registry": "https://nexus.devops.amgen.com/repository/amgennpm/"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0"
   }
 }

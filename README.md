@@ -28,3 +28,7 @@ ipam.login('username', 'password').then(function(res) {
   }
 })
 ```
+
+## Change Log
+
+2021-02-26 Revised the infoblox module to use axios from using request.
