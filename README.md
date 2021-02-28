@@ -13,21 +13,15 @@ npm install infoblox
 Example:
 
 ```javascript
-var Infoblox = require('infoblox');
+const Infoblox = require('infoblox');
+const config = require('./config.json');
 
-var ipam = new Infoblox({
-  ip: 'ip/hostname',
-  apiVersion: '2.1'  
+var ipam = new Infoblox(config);
+ipam.getAdminGroup().then(admGrps => {
+  console.log(admGrps);
 });
-
-ipam.login('username', 'password').then(function(res) {
-  if(res) {
-    ipam.getAdminGroup().then(function(admGrps) {
-      console.log(admGrps);
-    })
-  }
-})
 ```
+See ```examples/config.json``` for configuration for the API.
 
 ## Change Log
 
