@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
+    "c9r": "file:../c9r.js",
     "request": "^2.67.0"
   },
   "publishConfig": {
