@@ -4,5 +4,10 @@
 	"auth": {
 		"username":	"ipamadmin",
 		"password":	"changeme"
+	},
+	"timeout":	12000,
+	"output": {
+		"dir":	"path/to/output/folder",
+		"template": "file-%F.json"
 	}
 }
